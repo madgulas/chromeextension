@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 3,
+    "name": "Google Earth Search",
+    "description": "This extension searches cities on Google Earth.",
+    "version": "1.0",
+    "action": {
+        "default_icon": {
+            "16": "Earth.png",
+            "32": "Earth.png",
+            "48": "Earth.png",
+            "128": "Earth.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+        
+    ]
+}
